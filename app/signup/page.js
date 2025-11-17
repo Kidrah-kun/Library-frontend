@@ -15,7 +15,7 @@ export default function SignupPage() {
     try {
       const base = process.env.NEXT_PUBLIC_API_URL
       if (!base) throw new Error('NEXT_PUBLIC_API_URL is not set')
-      const url = `${base.replace(/\/$/, '')}/api/auth/signup`
+      const url = `${base}/api/auth/signup`
       const res = await fetch(url, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },

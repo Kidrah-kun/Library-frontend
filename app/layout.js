@@ -1,5 +1,5 @@
 export const metadata = {
-  title: 'TuneMate Auth',
+  title: 'GoodlIB Auth',
   description: 'Minimal auth-only frontend'
 }
 
